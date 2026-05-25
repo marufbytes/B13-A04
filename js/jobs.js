@@ -79,4 +79,5 @@ const jobs = [
     description: "Develop Android and iOS applications using Flutter.",
     status: "All"
   }
+  
 ];
