@@ -40,7 +40,7 @@ function renderJobs() {
 
     for (const job of filteredJobs) {
         const div = document.createElement("div");
-        
+
 
         div.innerHTML = `
             <div class="card bg-base-100 shadow-xl w-[90%] max-w-4xl mx-auto my-6 border border-gray-200">
@@ -59,7 +59,6 @@ function renderJobs() {
 
         jobContainer.append(div);
     }
-
     updateCounts();
 }
 
