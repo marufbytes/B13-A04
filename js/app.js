@@ -36,7 +36,7 @@ function renderJobs() {
         updateCounts();
         return;
     }
-    
+
 
     for (const job of filteredJobs) {
         const div = document.createElement("div");
@@ -48,7 +48,6 @@ function renderJobs() {
                     <p class="text-lg font-semibold">${job.position}</p>
                     <p class="text-sm text-gray-500">${job.location}, ${job.type}, ${job.salary}</p>
                     <p class="text-gray-600 mt-2">${job.description}</p>
-
                     <div class="card-actions justify-end mt-4">
                         <button onclick="markInterview(${job.id})" class="btn btn-soft btn-accent">Interview</button>
                         <button onclick="markRejected(${job.id})" class="btn btn-soft btn-error">Rejected</button>
