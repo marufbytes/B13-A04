@@ -13,6 +13,7 @@ function updateCounts() {
     document.querySelector(".rejected-job").innerText = jobs.filter(job => job.status === "Rejected").length;
 }
 
+
 function renderJobs() {
     jobContainer.innerHTML = "";
 
