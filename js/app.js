@@ -67,7 +67,6 @@ function markInterview(id) {
     job.status = "Interview";
     renderJobs();
 }
-
 function markRejected(id) {
     const job = jobs.find(job => job.id === id);
     job.status = "Rejected";
