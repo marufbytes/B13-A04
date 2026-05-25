@@ -25,7 +25,6 @@ function renderJobs() {
     else if (activeTab === "Rejected") {
         filteredJobs = jobs.filter(job => job.status === "Rejected");
     }
-
     if (filteredJobs.length === 0) {
         jobContainer.innerHTML = `
         <div class="text-center mt-10 flex flex-col items-center">
