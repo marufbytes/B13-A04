@@ -36,6 +36,7 @@ function renderJobs() {
         updateCounts();
         return;
     }
+    
 
     for (const job of filteredJobs) {
         const div = document.createElement("div");
