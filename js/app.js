@@ -73,4 +73,5 @@ function markRejected(id) {
     renderJobs();
 }
 
+
 renderJobs();
